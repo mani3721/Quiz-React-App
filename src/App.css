@@ -1,0 +1,50 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+.Container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+.Quiz-Top{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 40%;
+  text-align: center;
+  background: #EDD8CD;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+li{
+  list-style-type: none;
+  background: #fff;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: 0.5cm;
+  margin-right: 1cm;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow:  5px 5px 20px #6e6e6e,
+           -5px -5px 20px #ffffff;
+}
+li:hover{
+background: #4e0558;
+color: #fff;
+}
